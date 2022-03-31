@@ -3,4 +3,3 @@ variable "mycompany.com/policy-version" {
 # renovate: policy
   default = "1.0.0"
 }
-# 

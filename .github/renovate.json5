@@ -7,7 +7,7 @@
     {
       "fileMatch": [".*tf$"],
       "matchStrings": [
-        "#\\s*renovate:\\s*policy ?\\s default = \"(?<currentValue>.*)\"\\s"
+        "#\\s*renovate:\\s*policy?\\s*default = \"(?<currentValue>.*)\"\\s"
       ],
       "datasourceTemplate": "github-tags",
       "depNameTemplate": "policy",
