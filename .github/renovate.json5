@@ -5,7 +5,7 @@
   "pinDigests": true,
   "regexManagers": [
     {
-      "fileMatch": ["*.tf$"],
+      "fileMatch": [".*tf$"],
       "matchStrings": [
         "#\\s*renovate:\\s*policy ?\\s default = \"(?<currentValue>.*)\"\\s"
       ],
