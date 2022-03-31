@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": false,
+  "automerge": false,
+  "pinDigests": true,
+  "regexManagers": [
+    {
+      "fileMatch": ["*.tf$"],
+      "matchStrings": [
+        "#\\s*renovate:\\s*policy ?\\s default = \"(?<currentValue>.*)\"\\s"
+      ],
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "policy",
+      "lookupNameTemplate": "example-policy-org/policy",
+      "versioningTemplate": "semver"
+    }
+  ]
+}
