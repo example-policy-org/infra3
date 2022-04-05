@@ -3,6 +3,9 @@
   "dependencyDashboard": false,
   "automerge": false,
   "pinDigests": true,
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "separateMultipleMajor": true,
   "regexManagers": [
     {
       "fileMatch": [".*tf$"],
